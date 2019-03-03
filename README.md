@@ -1,5 +1,6 @@
 # Notey-k8s
-### Note taking application using Kubernetes, Docker, Webpack, React, Node.js and deployed on GoogleCloud
+#### Note taking application using Kubernetes, Docker, Webpack, React, Node.js and deployed on GoogleCloud
+##### Client/server created in my other repo https://github.com/Maxjoeld/Notey
 
 ## To start
 1. Install the [Docker Engine](https://docs.docker.com/engine/installation/). If
