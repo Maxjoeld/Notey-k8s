@@ -17,21 +17,9 @@ spec:
           image: leojj/notey-server
           ports:
             - containerPort: 5000
-          # env:
-          #   - name: REDIS_HOST
-          #     value: redis-cluster-ip-service
-          #   - name: REDIS_PORT
-          #     value: '6379'
-          #   - name: PGUSER
-          #     value: postgres
-          #   - name: PGHOST
-          #     value: postgres-cluster-ip-service
-          #   - name: PGPORT
-          #     value: '5432'
-          #   - name: PGDATABASE
-          #     value: postgres
-          #   - name: PGPASSWORD #this val can be abything but our server is looking for pg password
-          #     valueFrom:
-          #       secretKeyRef:
-          #         name: pgpassword
-          #         key: PGPASSWORD # secerets store key value pairs 
+          env:
+            - name: MONGOURI #this val can be abything but our server is looking for pg password
+              valueFrom:
+                secretKeyRef:
+                  name: mongouri
+                  key: MONGOURI # secerets store key value pairs 

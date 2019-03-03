@@ -1,6 +1,10 @@
 sudo: required
 services:
   - docker
+env:
+  global:
+    - SHA=$(git rev-parse HEAD)
+    - CLOUDSDK_CORE_DISABLE_PROMPTS=1
 before_install:
   - openssl aes-256-cbc -K $encrypted_0c35eebf403c_key -iv $encrypted_0c35eebf403c_iv -in service-account.json.enc -out service-account.json -d
   - curl https://sdk.cloud.google.com | bash > /dev/null;
@@ -8,5 +12,20 @@ before_install:
   - source $HOME/google-cloud-sdk/path.bash.inc
   # install and uodate kubectl in our environment, to set images on each deployment
   - gcloud components update kubectl
-  # we authroize google sdk with a service account
+  # we authroize google sdk with a service account- we use our encrypted service-account file tso gcloud can use it 
   - gcloud auth activate-service-account --key-file service-account.json
+  # tells gcloud what project were working with
+  - gcloud config set project notey-k8s
+  - gcloud config set compute/zone us-east1-c	
+  - gcloud container clusters get-credentials notey-cluster
+  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+  - docker build -t leojj/react-test -f ./client/Dockerfile.dev ./client
+
+script:
+  - docker run leojj/react-test npm test -- --coverage
+
+deploy:
+  provider: script
+  script: bash ./deploy.sh
+  on:
+    branch: master
