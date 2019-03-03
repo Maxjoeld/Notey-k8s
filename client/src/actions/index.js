@@ -106,11 +106,12 @@ export const isAuthenticated = () => async dispatch => {
 
 export const logoutUser = history => async dispatch => {
   try {
-    await axios.post(`/api/logout`);
+    const res = await axios.get(`/api/logout`);
+    console.log(res);
     dispatch(deAuth());
     dispatch({ type: 'ISAUTH' });
     await sessionStorage.removeItem('id');
-    await history.push('/login');
+    // await history.push('/login');
   } catch (err) {
     console.log(err);
   }

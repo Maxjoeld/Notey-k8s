@@ -22,7 +22,7 @@ module.exports = (app) => {
   //  User Routes //
   app.route('/api/register').post(userCreate);
   app.route('/api/login').post(userLogin);
-  app.route('/api/logout').post(userLogout);
+  app.route('/api/logout').get(userLogout);
 
   // Chat Routes //
   app.route('/api/chat/allContacts').get(allContacts);
