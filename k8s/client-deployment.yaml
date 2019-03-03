@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: client-deployment
+spec:
+  replicas: 3 # we want 3 pods to run- managed by client-deployment
+  selector:
+    matchLabels:
+      component: web # component of our application that that deployment is going to be managing is frontend
+  template:
+    metadata:
+      labels:
+        component: web
+    spec:
+      containers: # specifies all dif containers that will be run insided of the pod 
+        - name: client
+          image: leojj/notey-client
+          ports:
+            - containerPort: 3000
