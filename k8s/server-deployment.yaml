@@ -23,3 +23,8 @@ spec:
                 secretKeyRef:
                   name: mongouri
                   key: MONGOURI # secerets store key value pairs 
+            - name: SECRET #this val can be abything but our server is looking for pg password
+              valueFrom:
+                secretKeyRef:
+                  name: secret
+                  key: SECRET # secerets store key value pairs 
