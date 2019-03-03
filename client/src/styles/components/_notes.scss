@@ -80,3 +80,11 @@
   margin-left: 4rem;
   color: black;
 }
+
+.icon-hover {
+  color: #818181;
+  &:hover {
+    color: #60a5ff;
+    cursor: pointer;
+  }
+}
