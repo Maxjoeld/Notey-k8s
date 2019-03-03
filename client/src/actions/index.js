@@ -111,7 +111,7 @@ export const logoutUser = history => async dispatch => {
     dispatch(deAuth());
     dispatch({ type: 'ISAUTH' });
     await sessionStorage.removeItem('id');
-    // await history.push('/login');
+    await history.push('/login');
   } catch (err) {
     console.log(err);
   }
