@@ -7,7 +7,7 @@ let connect = process.env.DB_CONNECT || process.env.MONGOURI;
 mongoose.Promise = global.Promise;
 // 'mongodb://localhost/fs-notes'
 mongoose
-  .connect(connect)
+  .connect(connect, { useNewUrlParser: true })
   .then(() => {
     console.log('Successfully connected to MongoDB');
   })
