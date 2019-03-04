@@ -6,7 +6,6 @@ import ReactDOM from 'react-dom';
 import App from './routes';
 import rootReducer from './reducers';
 
-
 import "./styles/styles.scss";
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;

@@ -1,3 +1,4 @@
+/* eslint-disable  */
 import React, { Component } from 'react';
 // import logo from './SideBar/logo.png';
 import home from '../../img/home.jpg';
@@ -6,58 +7,32 @@ import {
 	LazyLoadImage
 } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/opacity.css';
-import { withRouter } from 'react-router'
+import { withRouter } from 'react-router';
 
 class Home extends Component {
 	// state = {}
 	render() {
 		return (
-			// <div>
-			// 	Hey
-			// </div>
-			<div className="Home-header">
-				<div className="Home--nav">
-					{/* <img src={logo} alt="SideLogo" className="home-logo" /> */}
-					<h1 className="home--title">
-            Notey
-          </h1>
-					<div className="Home--nav--links">
-						<p className="Home--nav--title"><NavLink className="link-hover" to="/home">Home</NavLink></p>
-						{/* <p className="Home--nav--title"><NavLink to="/about">About Us</NavLink></p> */}
-						<p className="Home--nav--title"><NavLink className="link-hover" to="/login">Sign In</NavLink></p>
-						<p className="Home--nav--title"><NavLink className="link-hover" to="/signup">Sign up</NavLink></p>
+			<div>
+				<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar" data-aos="fade-down" data-aos-delay="500">
+					<div class="container">
+						<a class="navbar-brand" href="index.html">Papers</a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="oi oi-menu"></span> Menu
+       		 	</button>
+
+						<div class="collapse navbar-collapse" id="ftco-nav">
+							<ul class="navbar-nav ml-auto">
+								<li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+								<li class="nav-item"><a href="services.html" class="nav-link">What We Do</a></li>
+								<li class="nav-item"><a href="blog.html" class="nav-link">The Journal</a></li>
+								<li class="nav-item"><a href="about.html" class="nav-link">Who We Are</a></li>
+								<li class="nav-item"><a href="pricing.html" class="nav-link">Plans &amp; Pricing</a></li>
+								<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+							</ul>
+						</div>
 					</div>
-				</div>
-				<div className="Home-img">
-					<LazyLoadImage
-						src={home}
-						alt="SideLogo"
-						className="Home--Pic"
-						effect="opacity"
-					/>
-					<div className="Home-type">
-						Create <br />Read <br /> Send <br />
-						<Link to="/signup">
-							<button className="Home-button">Sign up</button>
-						</Link>
-					</div>
-				</div>
-				{/* <p className="Home--Pic">Picture goes here</p> */}
-				<div className="Home-three-boxes">
-					<div className="Boxes">
-						<p className="home-Box-title">Create</p>
-						<p>Create notes to your liking </p>
-						<i className="fas fa-plus plus" />
-					</div>
-					<div className="Boxes">
-						<p className="home-Box-title">Send</p>
-						<p>Send messages to other users and also share notes that
-              you created
-            </p>
-						<i className="far fa-paper-plane" />
-					</div>
-				</div>
-				{/* <p className="Home-bottom" /> */}
+				</nav>
 			</div>
 		);
 	}
