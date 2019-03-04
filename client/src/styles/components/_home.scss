@@ -39,6 +39,10 @@
 
 .Home--nav {
   display: flex;
+  position: fixed;
+  z-index: 4;
+  background-color: #fff;
+  width: 100%;
   justify-content: center;
   align-items: center;
 }
@@ -92,6 +96,10 @@
   font-weight: 700;
   top: 20%;
   left: 12%;
+
+  @include respond(phone) { // width < 900 ?
+    font-size:30px; // 1rem = 8px, 8/16 = 50%
+  }
 }
 
 .Home-button {

@@ -3,4 +3,4 @@ import { mount } from 'enzyme';
 
 test('fake test', () => {
   expect(true).toBeTruthy();
-})
+});
