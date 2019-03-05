@@ -1,3 +1,16 @@
+body {
+	font-size: 16px;
+	line-height: 1.8;
+	font-weight: 300;
+}
+
+h1, h2, h3, h4, h5,
+.h1, .h2, .h3, .h4, .h5 {
+	line-height: 1.5;
+	color: $black;
+	font-weight: 300;
+}
+
 .ftco-navbar-light {
 	background: transparent!important;
 	position: absolute;
@@ -31,51 +44,6 @@
 					padding-right: 0px;
 				}
 			}
-
-			
-			// &.ftco-seperator {
-			// 	position: relative;
-			// 	margin-left: 20px;
-			// 	padding-left: 20px;
-			// 	@include media-breakpoint-down(md) {
-			// 		padding-left: 0;
-			// 		margin-left: 0;
-			// 	}
-			// 	&:before {
-			// 		position: absolute;
-			// 		content: "";
-			// 		top: 10px;
-			// 		bottom: 10px;
-			// 		left: 0;
-			// 		width: 2px;
-			// 		background: rgba($white, .05);
-			// 		@include media-breakpoint-down(md) {
-			// 			display: none;
-			// 		}
-			// 	}
-			// }
-			// &.cta {
-			// 	> a {
-			// 		padding-left: 0;
-			// 		color: $white;
-			// 		span {
-			// 			border: 2px solid $white;
-			// 			display: inline-block;
-			// 			padding: 10px 20px;
-			// 			border-radius: 4px;
-			// 		}
-			// 	}
-			// 	&.cta-colored {
-			// 		span {
-			// 			border-color: $primary;
-			// 		}
-			// 	}
-			// }
-			// &.active {
-			// 	> a {
-			// 		color: $white;
-			// 	}
-			// }
 		}
 	}
 	.navbar-toggler {
@@ -93,6 +61,7 @@
 		right: 0;
 		left: 0;
 		top: 0;
+		height: 8rem;
 		margin-top: -130px;
 		background: $white!important;
 		box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
@@ -142,10 +111,10 @@
 		}
 		&.awake {
 			margin-top: 0px;
-			transition: .3s all ease-out;
+			transition: 1s all ease-out;
 		}
 		&.sleep {
-			transition: .3s all ease-out;	
+			transition: 1s all ease-out;	
 		}
 
 		.navbar-brand {
@@ -202,4 +171,22 @@
 			color: $black;
 		}
 	}
+}
+
+// Change this to adjust height od image
+.ftco-vh-100 {
+  height: 100vh;
+  @include media-breakpoint-down(lg) {
+  	height: inherit;
+  	padding-top: 5em;
+  	padding-bottom: 5em;
+  }
+}
+
+.ftco-section {
+	padding: 7em 0;
+}
+
+.ftco-bg-dark {
+	background: #3c312e;
 }

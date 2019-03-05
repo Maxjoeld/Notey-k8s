@@ -2,7 +2,8 @@
 import React, { Component } from 'react';
 import home from '../../img/home.jpg';
 import 'react-lazy-load-image-component/src/effects/opacity.css';
-import { withRouter } from 'react-router';
+import { NavLink } from 'react-router-dom';
+
 
 class Landing extends Component {
   // state = {}
@@ -43,19 +44,23 @@ class Landing extends Component {
                     What We Do
                   </a>
                 </li>
-                <li class="nav-item">
+                {/* <li class="nav-item">
                   <a href="blog.html" class="nav-link">
                     The Journal
                   </a>
-                </li>
-                <li class="nav-item">
-                  <a href="about.html" class="nav-link">
-                    Who We Are
-                  </a>
-                </li>
+                </li> */}
+                  <li class="nav-item">
+                    <a class="nav-link">
+                      <NavLink to='/login'>
+                        Sign In
+                      </NavLink>
+                    </a>
+                  </li>
                 <li class="nav-item">
                   <a href="pricing.html" class="nav-link">
-                    Plans &amp; Pricing
+                    <NavLink to='/signup'>
+                      Sign Up
+                    </NavLink>
                   </a>
                 </li>
                 <li class="nav-item">

@@ -1,11 +1,6 @@
 /* eslint-disable  */
-// AOS.init({
-// 	duration: 800,
-// 	easing: 'slide'
-// });
 
 $(document).ready(function ($) {
-  // scr  oll
 	const scrollWindow = function() {
 		$(window).scroll(function(){
 			var $w = $(this),

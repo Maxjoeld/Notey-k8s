@@ -1,0 +1,33 @@
+
+.block-6 {
+	margin-bottom: 30px;
+	.icon {
+		margin-right: 30px;
+		span {
+			&:before {
+				font-size: 50px;
+			}
+			&.bg-after {
+				&:after {
+					position: absolute;
+					content: "";
+					left: 10px;
+					top: 5px;
+					width: 40px;
+					height: 40px;
+					border-radius: 50%;
+					background: lighten($primary, 20%);
+					z-index: -1;
+				}
+			}
+		}
+	}
+	.media-body {
+		.heading {
+			font-size: 20px;
+		}
+		p {
+			font-size: 16px;
+		}
+	}
+} 
