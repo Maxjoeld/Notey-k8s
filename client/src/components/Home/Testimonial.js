@@ -20,7 +20,6 @@ class Testimonial extends Component {
 					</div>
 
 					<div className="row">
-
 						<div className="col-md-6 col-lg-4" data-aos="fade-up">
 							<div className="flip-container">
 								<div className="flipper">
