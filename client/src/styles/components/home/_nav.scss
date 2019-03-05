@@ -33,49 +33,49 @@
 			}
 
 			
-			&.ftco-seperator {
-				position: relative;
-				margin-left: 20px;
-				padding-left: 20px;
-				@include media-breakpoint-down(md) {
-					padding-left: 0;
-					margin-left: 0;
-				}
-				&:before {
-					position: absolute;
-					content: "";
-					top: 10px;
-					bottom: 10px;
-					left: 0;
-					width: 2px;
-					background: rgba($white, .05);
-					@include media-breakpoint-down(md) {
-						display: none;
-					}
-				}
-			}
-			&.cta {
-				> a {
-					padding-left: 0;
-					color: $white;
-					span {
-						border: 2px solid $white;
-						display: inline-block;
-						padding: 10px 20px;
-						border-radius: 4px;
-					}
-				}
-				&.cta-colored {
-					span {
-						border-color: $primary;
-					}
-				}
-			}
-			&.active {
-				> a {
-					color: $white;
-				}
-			}
+			// &.ftco-seperator {
+			// 	position: relative;
+			// 	margin-left: 20px;
+			// 	padding-left: 20px;
+			// 	@include media-breakpoint-down(md) {
+			// 		padding-left: 0;
+			// 		margin-left: 0;
+			// 	}
+			// 	&:before {
+			// 		position: absolute;
+			// 		content: "";
+			// 		top: 10px;
+			// 		bottom: 10px;
+			// 		left: 0;
+			// 		width: 2px;
+			// 		background: rgba($white, .05);
+			// 		@include media-breakpoint-down(md) {
+			// 			display: none;
+			// 		}
+			// 	}
+			// }
+			// &.cta {
+			// 	> a {
+			// 		padding-left: 0;
+			// 		color: $white;
+			// 		span {
+			// 			border: 2px solid $white;
+			// 			display: inline-block;
+			// 			padding: 10px 20px;
+			// 			border-radius: 4px;
+			// 		}
+			// 	}
+			// 	&.cta-colored {
+			// 		span {
+			// 			border-color: $primary;
+			// 		}
+			// 	}
+			// }
+			// &.active {
+			// 	> a {
+			// 		color: $white;
+			// 	}
+			// }
 		}
 	}
 	.navbar-toggler {
@@ -158,4 +158,48 @@
 .navbar-brand {
 	text-transform: uppercase;
 	letter-spacing: .1em;
+}
+
+
+.btn {
+	cursor: pointer;
+	border-radius: 0px;
+	box-shadow: none!important;
+	// font-size: 13px;
+	// letter-spacing: .2em;
+	// text-transform: uppercase;
+	&:hover, &:active, &:focus {
+		outline: none;
+	}
+	&.btn-primary {
+		background: $primary;
+		border: 2px solid $primary;
+		color: $black;
+		&:hover {
+			border: 2px solid $primary;
+			background: transparent;
+			color :$primary;
+		}
+		&.btn-outline-primary {
+			border: 2px solid $primary;
+			background: transparent;
+			color :$primary;
+			&:hover {
+				border: 2px solid transparent;
+				background: $primary;
+				color :$black;
+			}
+		}
+	}
+	&.btn-outline-white {
+		border-color: rgba($white, .8);
+		background: none;
+		border-radius: 0px;
+		border-width: 2px;
+		&:hover, &:focus, &:active {
+			background: $white;
+			border-color: $white;
+			color: $black;
+		}
+	}
 }
