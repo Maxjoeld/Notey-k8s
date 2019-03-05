@@ -4,7 +4,7 @@
   "description": "webpack",
   "main": "index.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=development webpack-dev-server --colors --hot --content-base --inline",
+    "start": "cross-env NODE_ENV=development webpack-dev-server --colors --hot",
     "build": "cross-env NODE_ENV=production webpack",
     "format": "prettier --write 'packages/**/*.js'",
     "test": "jest"
@@ -58,6 +58,7 @@
     "koa-connect": "^2.0.1",
     "lodash": "4.17.11",
     "node-sass": "^4.11.0",
+    "owl.carousel": "^2.3.4",
     "path": "^0.12.7",
     "prop-types": "15.6.2",
     "react": "16.7.0",

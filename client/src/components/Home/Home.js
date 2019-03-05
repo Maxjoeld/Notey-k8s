@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import Landing from './Landing';
 import Body from './Body';
 import Details from './Details';
-import Testimonails from './Testimonial';
+import Testimonial from './Testimonial';
 
 import 'react-lazy-load-image-component/src/effects/opacity.css';
 import { withRouter } from 'react-router';
