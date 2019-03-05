@@ -11,10 +11,6 @@ h1, h2, h3, h4, h5,
 	font-weight: 300;
 }
 
-.home-logo {
-  margin: 2rem 1px 3rem 2rem;
-  max-height: 7rem;
-}
 
 .ftco-navbar-light {
 	background: transparent!important;
@@ -71,6 +67,10 @@ h1, h2, h3, h4, h5,
 		z-index: 300;
 		background: $white!important;
 		box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
+
+		@include media-breakpoint-down(md) {
+			height: 8rem;
+		}
 		.nav-item {
 			&.active {
 				> a {
@@ -125,6 +125,9 @@ h1, h2, h3, h4, h5,
 
 		.navbar-brand {
 			color: $black;
+			@include media-breakpoint-down(md) {
+				margin-bottom: -7rem;
+			}
 		}
 
 	}
@@ -133,8 +136,26 @@ h1, h2, h3, h4, h5,
 .navbar-brand {
 	text-transform: uppercase;
 	letter-spacing: .1em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	@include media-breakpoint-down(md) {
+		margin-top: -7.5rem;
+	}
+
 }
 
+#logo-name {
+	margin-bottom: -1rem;
+}
+
+
+
+.home-logo {
+  margin: 2rem 1px 2rem 2rem;
+	max-height: 5rem;
+	
+}
 
 .btn {
 	cursor: pointer;

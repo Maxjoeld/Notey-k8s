@@ -17,11 +17,11 @@ class Home extends Component {
     return (
       <div>
 				<Landing />
-				<Body />
-        <Details />
-        <Testimonial />
+				{/* <Body /> */}
         <About />
         <Blog />
+        <Details />
+        <Testimonial />
         <Footer />
       </div>
     );

@@ -19,9 +19,10 @@ class Landing extends Component {
           data-aos-delay="500"
         >
           <div class="container">
-            <a class="navbar-brand" href="index.html">
-              <img src={logo} alt='img' className="home-logo" />Notey
-            </a>
+            <div class="navbar-brand" href="/home">
+              <img src={logo} alt='img' className="home-logo" />
+              <p id="logo-name">Notey</p>
+            </div>
             <button
               class="navbar-toggler"
               type="button"
@@ -52,17 +53,13 @@ class Landing extends Component {
                   </a>
                 </li> */}
                   <li class="nav-item">
-                    <a class="nav-link">
-                      <NavLink to='/login'>
+                    <a href="/login" class="nav-link">
                         Sign In
-                      </NavLink>
                     </a>
                   </li>
                 <li class="nav-item">
-                  <a href="pricing.html" class="nav-link">
-                    <NavLink to='/signup'>
+                  <a href="/signup" class="nav-link">
                       Sign Up
-                    </NavLink>
                   </a>
                 </li>
                 <li class="nav-item">
