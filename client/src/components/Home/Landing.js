@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 import home from '../../img/home.jpg';
 import 'react-lazy-load-image-component/src/effects/opacity.css';
 import { NavLink } from 'react-router-dom';
+import logo from '../../img/logo.png';
+
 
 
 class Landing extends Component {
@@ -18,7 +20,7 @@ class Landing extends Component {
         >
           <div class="container">
             <a class="navbar-brand" href="index.html">
-              Papers
+              <img src={logo} alt='img' className="home-logo" />Notey
             </a>
             <button
               class="navbar-toggler"

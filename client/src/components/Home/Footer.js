@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import logo from '../../img/logo.png';
 
 class Footer extends Component {
   // state = {  }
@@ -8,7 +9,7 @@ class Footer extends Component {
 
         <div class="footer-left">
 
-          <h3>Company<span>logo</span></h3>
+          <h3><img src={logo} alt='img' className="Side-logo" /><span>Notey</span></h3>
 
           <p class="footer-links">
             <a href="#">Home</a>
@@ -24,24 +25,24 @@ class Footer extends Component {
 					<a href="#">Contact</a>
           </p>
 
-          <p class="footer-company-name">Company Name &copy; 2015</p>
+          <p class="footer-company-name">Notey&copy; 2019</p>
         </div>
 
         <div class="footer-center">
 
           <div>
             <i class="fa fa-map-marker"></i>
-            <p><span>21 Revolution Street</span> Paris, France</p>
+            <p><span>21 New york</span> Manhattan, NY</p>
           </div>
 
           <div>
             <i class="fa fa-phone"></i>
-            <p>+1 555 123456</p>
+            <p>+1 555 5555</p>
           </div>
 
           <div>
             <i class="fa fa-envelope"></i>
-            <p><a href="mailto:support@company.com">support@company.com</a></p>
+            <p><a href="mailto:support@company.com">support@Notey.com</a></p>
           </div>
 
         </div>
@@ -49,16 +50,16 @@ class Footer extends Component {
         <div class="footer-right">
 
           <p class="footer-company-about">
-            <span>About the company</span>
+            <span>About Notey</span>
             Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
-				</p>
+				  </p>
 
           <div class="footer-icons">
 
-            <a href="#"><i class="fa fa-facebook"></i></a>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-            <a href="#"><i class="fa fa-linkedin"></i></a>
-            <a href="#"><i class="fa fa-github"></i></a>
+            <a href="#"><i class="fab fa-facebook-f fo-icons"></i></a>
+            <a href="#"><i class="fab fa-twitter fo-icons"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in fo-icons"></i></a>
+            <a href="#"><i class="fab fa-github fo-icons"></i></a>
 
           </div>
 
