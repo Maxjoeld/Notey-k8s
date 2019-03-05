@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import img5 from '../../img/image_5.jpg';
-import img6 from '../../img/image_6.jpg';
+import img11 from '../../img/image_11.jpg';
 import img7 from '../../img/image_7.jpg';
 import person1 from '../../img/person_1.jpg';
 import person2 from '../../img/person_2.jpg';
@@ -23,10 +23,10 @@ class Testimonial extends Component {
 						<div className="col-md-6 col-lg-4" data-aos="fade-up">
 							<div className="flip-container">
 								<div className="flipper">
-									<div className="front" style={{ backgroundImage: `url(${img5})` }}>
+									<div className="front" style={{ backgroundImage: `url(${img11})` }}>
 										<div className="box">
-											<h2>Mellissa Clark</h2>
-											<p>Web Designer</p>
+											<h2>Jon Smith</h2>
+											<p>Teacher</p>
 										</div>
 									</div>
 									<div className="back">
@@ -37,7 +37,7 @@ class Testimonial extends Component {
 											<div className="image mr-3 align-self-center">
 												<img src={person1} alt="" />
 											</div>
-											<div className="name align-self-center">Mellisa Clark <span className="position">Web Designer</span></div>
+											<div className="name align-self-center">Jon Smith <span className="position">Teacher</span></div>
 										</div>
 									</div>
 								</div>
@@ -47,7 +47,7 @@ class Testimonial extends Component {
 						<div className="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
 							<div className="flip-container hover">
 								<div className="flipper">
-									<div className="front" style={{ backgroundImage: `url(${img6})` }}>
+									<div className="front" style={{ backgroundImage: `url(${img11})` }}>
 										<div className="box">
 											<h2>Mellissa Clark</h2>
 											<p>Web Designer</p>
