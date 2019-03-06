@@ -10,9 +10,6 @@ class Details extends Component {
         <section className="ftco-section-2">
           <div className="container-fluid">
             <div className="section-2-blocks-wrapper row no-gutters">
-              <div className="img col-sm-12 col-md-5" style={{ backgroundImage: `url(${detail1})`}} data-aos="fade-right">
-                <a href="https://vimeo.com/45830194" className="button popup-vimeo" data-aos="fade-right" data-aos-delay="700"><span className="ion-ios-play"></span></a>
-              </div>
               <div className="text col-md-6 col-lg-7 d-flex">
                 <div className="text-inner align-self-center" data-aos="fade-up">
                   <h3>Teindgs iewe kels ameklw</h3>
