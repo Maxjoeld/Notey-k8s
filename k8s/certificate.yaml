@@ -1,7 +1,7 @@
 apiVersion: certmanager.k8s.io/v1alpha1
 kind: Certificate
 metadata:
-  name: winning-seahorse-webhook-webhook-tls
+  name: notey-app-com-tls
 spec:
   secretName: notey-app-com
   issuerRef:
