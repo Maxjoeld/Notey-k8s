@@ -10,6 +10,9 @@ class Details extends Component {
         <section className="ftco-section-2">
           <div className="container-fluid">
             <div className="section-2-blocks-wrapper row no-gutters">
+              <div className="img col-sm-12 col-md-5" style={{ backgroundImage: `url(${detail1})`}} data-aos="fade-right">
+                {/* <a href="https://vimeo.com/45830194" className="button popup-vimeo" data-aos="fade-right" data-aos-delay="700"><span className="ion-ios-play"></span></a> */}
+              </div>
               <div className="text col-md-6 col-lg-7 d-flex">
                 <div className="text-inner align-self-center" data-aos="fade-up">
                   <h3>Teindgs iewe kels ameklw</h3>
@@ -28,10 +31,10 @@ class Details extends Component {
 
               <div className="text col-md-5 col-lg-5 col-xl-4 ml-auto d-flex" data-aos="fade-up">
                 <div className="text-inner align-self-center mr-auto">
-                  <h4 className="text-primary h5">Far far away, behind the word mountains</h4>
-                  <p className="mb-4">as still lived and remembered me with the old affection. Chief of these, I hoped, was Mohun Dampier, an old schoolmate with whom I had held a desultory correspondence which had long ceased,</p>
+                  <h4 className="text-primary h5">Excepteur sint occaecat cupidatat non </h4>
+                  <p className="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.lows by their place and supplies it with the necessary regelialiaA small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of</p>
                   <h4 className="text-primary h5">A small river named Duden flows by their place</h4>
-                  <p className="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                  <p className="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.lows by their place and supplies it with the necessary regelialiaA small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of</p>
                 </div>
               </div>
               <div className="img col-md-5 no-gutters ml-auto">
