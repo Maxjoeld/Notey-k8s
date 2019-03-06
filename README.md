@@ -1,6 +1,6 @@
 # Notey-k8s
 ### https://notey-app.com/
-#### In the proccess of obtaining a new cert
+#### In the proccess of obtaining a new certificate
 #### Note taking application using Kubernetes, Docker, Webpack, React, Node.js and deployed on GoogleCloud
 ##### Client/server created in my other repo https://github.com/Maxjoeld/Notey
 
