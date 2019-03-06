@@ -15,7 +15,7 @@ class Details extends Component {
               </div>
               <div className="text col-md-6 col-lg-7 d-flex">
                 <div className="text-inner align-self-center" data-aos="fade-up">
-                  <h3>Far far away, behind the word mountains</h3>
+                  <h3>Teindgs iewe kels ameklw</h3>
                   <p>Many years ago, on my way from Hongkong to New York, I passed a week in San Francisco. A long time had gone by since I had been in that city, during which my ventures in the Orient had prospered beyond my hope;</p>
 
                   <p>i I was rich and could afford to revisit my own country to renew my friendship with such of the companions of my youth as still lived and remembered me with the old affection.</p>
