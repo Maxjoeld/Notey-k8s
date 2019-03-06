@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import img5 from '../../img/image_5.jpg';
+// import img5 from '../../img/image_5.jpg';
 import img11 from '../../img/image_11.jpg';
 import img7 from '../../img/image_7.jpg';
 import person1 from '../../img/person_1.jpg';
