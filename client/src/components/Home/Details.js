@@ -7,41 +7,41 @@ class Details extends Component {
   render() { 
     return ( 
       <>
-        <section class="ftco-section-2">
-          <div class="container-fluid">
-            <div class="section-2-blocks-wrapper row no-gutters">
-              <div class="img col-sm-12 col-md-5" style={{ backgroundImage: `url(${detail1})`}} data-aos="fade-right">
-                <a href="https://vimeo.com/45830194" class="button popup-vimeo" data-aos="fade-right" data-aos-delay="700"><span class="ion-ios-play"></span></a>
+        <section className="ftco-section-2">
+          <div className="container-fluid">
+            <div className="section-2-blocks-wrapper row no-gutters">
+              <div className="img col-sm-12 col-md-5" style={{ backgroundImage: `url(${detail1})`}} data-aos="fade-right">
+                <a href="https://vimeo.com/45830194" className="button popup-vimeo" data-aos="fade-right" data-aos-delay="700"><span className="ion-ios-play"></span></a>
               </div>
-              <div class="text col-md-6 col-lg-7 d-flex">
-                <div class="text-inner align-self-center" data-aos="fade-up">
+              <div className="text col-md-6 col-lg-7 d-flex">
+                <div className="text-inner align-self-center" data-aos="fade-up">
                   <h3>Far far away, behind the word mountains</h3>
-                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                  <p>Many years ago, on my way from Hongkong to New York, I passed a week in San Francisco. A long time had gone by since I had been in that city, during which my ventures in the Orient had prospered beyond my hope;</p>
 
-                  <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                  <p>i I was rich and could afford to revisit my own country to renew my friendship with such of the companions of my youth as still lived and remembered me with the old affection.</p>
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        <section class="section-2-blocks-wrapper-2">
-          <div class="container-fluid">
-            <div class="section-2-blocks-wrapper row no-gutters d-flex" style={{background: "#fafafa" }}>
+        <section className="section-2-blocks-wrapper-2">
+          <div className="container-fluid">
+            <div className="section-2-blocks-wrapper row no-gutters d-flex" style={{background: "#fafafa" }}>
 
-              <div class="text col-md-5 col-lg-5 col-xl-4 ml-auto d-flex" data-aos="fade-up">
-                <div class="text-inner align-self-center mr-auto">
-                  <h4 class="text-primary h5">Far far away, behind the word mountains</h4>
-                  <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                  <h4 class="text-primary h5">A small river named Duden flows by their place</h4>
-                  <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+              <div className="text col-md-5 col-lg-5 col-xl-4 ml-auto d-flex" data-aos="fade-up">
+                <div className="text-inner align-self-center mr-auto">
+                  <h4 className="text-primary h5">Far far away, behind the word mountains</h4>
+                  <p className="mb-4">as still lived and remembered me with the old affection. Chief of these, I hoped, was Mohun Dampier, an old schoolmate with whom I had held a desultory correspondence which had long ceased,</p>
+                  <h4 className="text-primary h5">A small river named Duden flows by their place</h4>
+                  <p className="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
                 </div>
               </div>
-              <div class="img col-md-5 no-gutters ml-auto">
-                <div class="image" style={{ backgroundImage: `url(${detail2})` }} data-aos="fade-left"></div>
-                <div class="quote" data-aos="fade-left">
-                  <p class="mb-5">&rdquo;A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. &ldquo;</p>
-                  <p class="author">&mdash; Mellissa Clark</p>
+              <div className="img col-md-5 no-gutters ml-auto">
+                <div className="image" style={{ backgroundImage: `url(${detail2})` }} data-aos="fade-left"></div>
+                <div className="quote" data-aos="fade-left">
+                  <p className="mb-5">&rdquo;Ours is a noble house, and stretches a long way back into antiquity. The earliest ancestor the Twains have any record of was a friend of the family by the name of Higgins. This was in the eleventh century, when our people were living in Aberdeen, county of Cork, England&ldquo;</p>
+                  <p className="author">&mdash; Mellissa Clark</p>
                 </div>
               </div>
             </div>
