@@ -5,7 +5,7 @@ metadata:
 spec:
   acme:
     server: https://acme-v02.api.letsencrypt.org/directory
-    email: 'mjd809@@gmail.com'
+    email: 'mjd809@gmail.com'
     privateKeySecretRef:
       name: letsencrypt-prod
     http01: {} #we want to use the http-process of obtaining a cert, instead of dns option
