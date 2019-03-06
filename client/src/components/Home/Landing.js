@@ -39,17 +39,17 @@ class Landing extends Component {
             <div className="collapse navbar-collapse" id="ftco-nav">
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item active">
-                  <a href="index.html" className="nav-link">
+                  <a className="nav-link">
                     Home
                   </a>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link">
-                    What We Do
+                    About
                   </a>
                 </li>
                 {/* <li className="nav-item">
-                  <a href="blog.html" className="nav-link">
+                  <a  className="nav-link">
                     The Journal
                   </a>
                 </li> */}
@@ -64,7 +64,7 @@ class Landing extends Component {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="contact.html" className="nav-link">
+                  <a className="nav-link">
                     Contact
                   </a>
                 </li>

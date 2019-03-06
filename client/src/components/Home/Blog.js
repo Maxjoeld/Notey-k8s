@@ -18,7 +18,7 @@ class Blog extends Component {
 
           <div className="row">
             <div className="col-md-6 col-lg-4" data-aos="fade-up">
-              <a href="blog-single.html" className="block-5" style={{ backgroundImage: `url(${img10})` }}>
+              <a className="block-5" style={{ backgroundImage: `url(${img10})` }}>
                 <div className="text">
                   <div className="subheading">Travel</div>
                   <h3 className="heading">Consectetur adipiscing elit, sed do eiusmod tempor </h3>
@@ -30,7 +30,7 @@ class Blog extends Component {
               </a>
             </div>
             <div className="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
-              <a href="blog-single.html" className="block-5" style={{ backgroundImage: `url(${img8})` }}>
+              <a className="block-5" style={{ backgroundImage: `url(${img8})` }}>
                 <div className="text">
                   <div className="subheading">Tech</div>
                   <h3 className="heading">Eum invenire contentiones eu</h3>
@@ -42,7 +42,7 @@ class Blog extends Component {
               </a>
             </div>
             <div className="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
-              <a href="blog-single.html" className="block-5" style={{ backgroundImage: `url(${img9})` }}>
+              <a className="block-5" style={{ backgroundImage: `url(${img9})` }}>
                 <div className="text">
                   <div className="subheading">Education</div>
                   <h3 className="heading">Dicunt labitur definiebas et sea. </h3>
